@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.8;
+}
+
+header {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    color: white;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.author-info strong {
+    color: #3498db;
+}
+
+main {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+
+article {
+    background: white;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Pseudo-element selectors */
+article p:first-of-type::first-letter {
+    font-size: 4rem;
+    font-weight: bold;
+    float: left;
+    line-height: 1;
+    margin-right: 0.1em;
+    color: #e74c3c;
+}
+
+article p:first-of-type::first-line {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+article p {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+mark {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+
+blockquote {
+    border-left: 5px solid #3498db;
+    background-color: #ecf0f1;
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #2c3e50;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+}
